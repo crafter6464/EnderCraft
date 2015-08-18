@@ -1,0 +1,10 @@
+package com.crafter6464.endercraft.configuration;
+
+import java.io.File;
+
+public class ConfigurationHandler {
+private File file;
+	public void init(File file){
+		this.file=file;
+	}
+}

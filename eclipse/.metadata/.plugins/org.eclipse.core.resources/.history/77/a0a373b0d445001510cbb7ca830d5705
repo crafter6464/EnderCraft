@@ -1,0 +1,28 @@
+package com.crafter6464.endercraft.item;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ItemEC extends Item {
+
+	public ItemEC(String name){
+		this.setUnlocalizedName(name);
+		
+		GameRegistry.registerItem(this, name);
+		registerRender(this);
+		
+	}
+	
+	
+	public void registerRender(Item item){
+		try{
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 1, new ModelResourceLocation("EnderCraft.textures.items."+item.getUnlocalizedName()));
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+}

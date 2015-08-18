@@ -1,0 +1,10 @@
+package com.crafter6464.endercraft.item;
+
+public class ItemTest extends ItemEC {
+
+	public ItemTest(){
+		super("test");
+		
+		
+	}
+}

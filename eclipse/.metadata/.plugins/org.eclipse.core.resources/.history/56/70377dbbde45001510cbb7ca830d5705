@@ -1,0 +1,12 @@
+package com.crafter6464.endercraft.init;
+
+import com.crafter6464.endercraft.item.ItemEC;
+import com.crafter6464.endercraft.item.ItemTest;
+
+public class Item {
+public static ItemEC test;
+	public static void init() {
+		test = new ItemTest();
+	}
+
+}

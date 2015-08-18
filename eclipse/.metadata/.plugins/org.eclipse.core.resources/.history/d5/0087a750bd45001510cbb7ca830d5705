@@ -1,0 +1,31 @@
+package com.crafter6464.endercraft.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	public static void init(File file){
+		Configuration config = new Configuration(file);
+		
+		try
+		{
+		
+			config.load();
+			
+			boolean test = config.get("Test", "General", true, "this is a test boolean").getBoolean();
+		}
+		catch(Exception e)
+		{
+			
+			e.printStackTrace();
+			
+		}
+		finally
+		{
+			
+			config.save();
+		}
+		
+	}
+}

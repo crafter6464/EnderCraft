@@ -1,0 +1,12 @@
+package com.crafter6464.endercraft.init;
+
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class Block {
+public static Block test;
+	
+	
+	public void init(){
+	}
+	
+}

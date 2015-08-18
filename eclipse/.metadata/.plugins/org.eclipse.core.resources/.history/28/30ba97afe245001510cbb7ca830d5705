@@ -1,0 +1,14 @@
+package com.crafter6464.endercraft.init;
+
+import com.crafter6464.endercraft.block.BlockEC;
+
+
+public class Blocks {
+public static Block test;
+	
+	
+	public void init(){
+		test = new BlockEC("test").setHardness(2.0F);
+	}
+	
+}

@@ -1,0 +1,160 @@
+[16:15:45] [Client thread/INFO]: Setting user: Player62
+[16:15:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:15:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:16:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:16:01] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[16:16:01] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:16:01] [Thread-9/INFO]: OpenAL initialized.
+[16:16:01] [Sound Library Loader/INFO]: Sound engine started
+[16:16:06] [Client thread/INFO]: Created: 16x16 textures-atlas
+[16:16:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:16:08] [Client thread/INFO]: SoundSystem shutting down...
+[16:16:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:16:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:16:08] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[16:16:08] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:16:08] [Thread-11/INFO]: OpenAL initialized.
+[16:16:09] [Sound Library Loader/INFO]: Sound engine started
+[16:16:13] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:16:17] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[16:16:17] [Server thread/INFO]: Generating keypair
+[16:16:18] [Server thread/INFO]: Preparing start region for level 0
+[16:16:19] [Server thread/INFO]: Changing view distance to 6, from 10
+[16:16:21] [Server thread/INFO]: Player62[local:E:fd25c720] logged in with entity id 40 at (-258.8931646701059, 4.0, 151.10255624553326)
+[16:16:21] [Server thread/INFO]: Player62 joined the game
+[16:16:24] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@486ab192[id=1b8221f7-5861-330e-bef0-ac96b785ff27,name=Player62,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_45]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_45]
+[16:16:25] [Server thread/INFO]: Player62 has just earned the achievement [Taking Inventory]
+[16:16:25] [Client thread/INFO]: [CHAT] Player62 has just earned the achievement [Taking Inventory]
+[16:16:37] [Server thread/INFO]: Saving and pausing game...
+[16:16:37] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:16:37] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:16:37] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:16:50] [Server thread/INFO]: Saving and pausing game...
+[16:16:50] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:16:50] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:16:50] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:17:13] [Server thread/INFO]: Saving and pausing game...
+[16:17:14] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:17:14] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:17:14] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:17:19] [Server thread/INFO]: Saving and pausing game...
+[16:17:19] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:17:19] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:17:19] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:17:20] [Server thread/INFO]: Stopping server
+[16:17:20] [Server thread/INFO]: Saving players
+[16:17:20] [Server thread/INFO]: Saving worlds
+[16:17:20] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:17:20] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:17:20] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:17:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:17:23] [Client thread/INFO]: SoundSystem shutting down...
+[16:17:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:17:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:17:23] [Thread-15/INFO]: Initializing LWJGL OpenAL
+[16:17:23] [Thread-15/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:17:24] [Thread-15/INFO]: OpenAL initialized.
+[16:17:24] [Sound Library Loader/INFO]: Sound engine started
+[16:17:28] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:17:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:17:46] [Client thread/INFO]: SoundSystem shutting down...
+[16:17:46] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:17:46] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:17:46] [Thread-17/INFO]: Initializing LWJGL OpenAL
+[16:17:46] [Thread-17/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:17:46] [Thread-17/INFO]: OpenAL initialized.
+[16:17:46] [Sound Library Loader/INFO]: Sound engine started
+[16:17:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:17:53] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[16:17:53] [Server thread/INFO]: Generating keypair
+[16:17:56] [Server thread/INFO]: Preparing start region for level 0
+[16:17:56] [Server thread/INFO]: Changing view distance to 6, from 10
+[16:17:57] [Server thread/INFO]: Player62[local:E:f89763ae] logged in with entity id 155069 at (-258.8931646701059, 4.0, 151.10255624553326)
+[16:17:57] [Server thread/INFO]: Player62 joined the game
+[16:18:03] [Server thread/INFO]: Saving and pausing game...
+[16:18:03] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:18:03] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:18:03] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:18:36] [Server thread/INFO]: Saving and pausing game...
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:18:36] [Server thread/INFO]: Stopping server
+[16:18:36] [Server thread/INFO]: Saving players
+[16:18:36] [Server thread/INFO]: Saving worlds
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:18:36] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:18:38] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[16:18:38] [Server thread/INFO]: Generating keypair
+[16:18:38] [Server thread/INFO]: Preparing start region for level 0
+[16:18:39] [Server thread/INFO]: Changing view distance to 6, from 10
+[16:18:39] [Server thread/INFO]: Player62[local:E:a959e245] logged in with entity id 228542 at (-258.8931646701059, 4.0, 151.10255624553326)
+[16:18:39] [Server thread/INFO]: Player62 joined the game
+[16:18:41] [Server thread/INFO]: Saving and pausing game...
+[16:18:41] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:18:41] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:18:41] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:18:42] [Server thread/INFO]: Stopping server
+[16:18:42] [Server thread/INFO]: Saving players
+[16:18:42] [Server thread/INFO]: Saving worlds
+[16:18:42] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:18:42] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:18:42] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:18:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:18:45] [Client thread/INFO]: SoundSystem shutting down...
+[16:18:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:18:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:18:45] [Thread-21/INFO]: Initializing LWJGL OpenAL
+[16:18:45] [Thread-21/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:18:45] [Thread-21/INFO]: OpenAL initialized.
+[16:18:45] [Sound Library Loader/INFO]: Sound engine started
+[16:18:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:18:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ender Craft
+[16:18:53] [Client thread/INFO]: SoundSystem shutting down...
+[16:18:53] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:18:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:18:53] [Thread-23/INFO]: Initializing LWJGL OpenAL
+[16:18:53] [Thread-23/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:18:53] [Thread-23/INFO]: OpenAL initialized.
+[16:18:53] [Sound Library Loader/INFO]: Sound engine started
+[16:18:56] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:18:59] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[16:18:59] [Server thread/INFO]: Generating keypair
+[16:19:00] [Server thread/INFO]: Preparing start region for level 0
+[16:19:00] [Server thread/INFO]: Changing view distance to 6, from 10
+[16:19:00] [Server thread/INFO]: Player62[local:E:604c8180] logged in with entity id 244568 at (-258.8931646701059, 4.0, 151.10255624553326)
+[16:19:00] [Server thread/INFO]: Player62 joined the game
+[16:19:15] [Server thread/INFO]: Saving and pausing game...
+[16:19:15] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:19:15] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:19:15] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:19:16] [Client thread/INFO]: Stopping!
+[16:19:16] [Client thread/INFO]: SoundSystem shutting down...
+[16:19:16] [Server thread/INFO]: Stopping server
+[16:19:16] [Server thread/INFO]: Saving players
+[16:19:16] [Server thread/INFO]: Saving worlds
+[16:19:16] [Server thread/INFO]: Saving chunks for level 'Debug World'/Overworld
+[16:19:16] [Server thread/INFO]: Saving chunks for level 'Debug World'/Nether
+[16:19:16] [Server thread/INFO]: Saving chunks for level 'Debug World'/The End
+[16:19:16] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

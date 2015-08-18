@@ -1,0 +1,5 @@
+package com.crafter6464.endercraft.configuration;
+
+public class ConfigurationHandler {
+
+}

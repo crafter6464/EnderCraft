@@ -1,0 +1,52 @@
+package com.crafter6464.endercraft;
+
+import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.FMLEventChannel;
+
+import com.crafter6464.endercraft.handler.ConfigurationHandler;
+import com.crafter6464.endercraft.init.Item;
+import com.crafter6464.endercraft.proxy.IProxy;
+import com.crafter6464.endercraft.reference.Reference;
+import com.crafter6464.endercraft.utility.Log;
+
+
+
+@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME,version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_PATH )
+
+public class EnderCraft {
+
+	
+	@Mod.Instance
+	public static EnderCraft instance;
+	
+	@SidedProxy(clientSide = Reference.CLIENT_PATH, serverSide = Reference.SERVER_PATH)
+	public static IProxy proxy;
+	
+	
+@EventHandler
+	public void preInit(FMLPreInitializationEvent event){
+
+ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+Log.info("PreInit finished");	
+}
+@EventHandler
+public void init(FMLInitializationEvent event){
+	Item.init();
+	proxy.registerRenders();
+	Log.info("Init finished");	
+}
+
+@EventHandler
+public void postInit(FMLPostInitializationEvent event){
+	Log.info("Post Init finished");	
+}
+	
+}

@@ -1,0 +1,16 @@
+[
+{
+"modid": "the id of mod in ur base file of the mod",
+"name": "name of mod",
+"description": "about mod",
+"version": "version of mod",
+"mcversion": "version of minecraft mod will work on",
+"logoFile": "logo picture (ex: "/mod/logo.png")",
+"url": "ur website or youtube url": "",
+"authors": ["who made the mod?"],
+"credits": "credits",
+"parent": "",
+"screenshots": [],
+"dependencies": ["mod_MinecraftForge"]
+}
+]

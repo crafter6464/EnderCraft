@@ -1,0 +1,19 @@
+package com.crafter6464.endercraft.handler;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	static Configuration config;
+	public static void init(File file){
+		
+		
+if(config == null){
+	config = new Configuration(file);
+}
+
+		
+	}
+	
+}
