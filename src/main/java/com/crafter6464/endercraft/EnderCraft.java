@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.crafter6464.endercraft.client.TabEnderCraft;
 import com.crafter6464.endercraft.handler.ConfigurationHandler;
@@ -17,6 +18,7 @@ import com.crafter6464.endercraft.init.EnderCraftItems;
 import com.crafter6464.endercraft.proxy.IProxy;
 import com.crafter6464.endercraft.reference.Reference;
 import com.crafter6464.endercraft.utility.Log;
+import com.crafter6464.endercraft.world.WorldGenerator;
 
 
 
@@ -47,6 +49,7 @@ public void init(FMLInitializationEvent event){
 	EnderCraftBlocks.init();
 	proxy.registerRenders();
 	proxy.registerTileEntities();
+	GameRegistry.registerWorldGenerator(new WorldGenerator(), 0);
 	Log.info("Init finished");	
 }
 
