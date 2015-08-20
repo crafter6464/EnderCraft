@@ -1,9 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": 
-    {
-        "top": "endercraft:blocks/enderFurnaceTop",
-        "front": "endercraft:blocks/enderFurnaceFrontOn",
-        "side": "endercraft:blocks/enderFurnaceSide"
-    }
-}
