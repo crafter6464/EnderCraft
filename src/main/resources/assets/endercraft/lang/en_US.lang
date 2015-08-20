@@ -1,1 +1,12 @@
+//EnderCraft
 itemGroup.Ender Craft=Ender Craft
+
+//Blocks
+
+tile.ender_furnace_off.name=Ender Furnace
+tile.ender_furnace_on.name=Ender Furnace
+
+
+//ToolTips
+endercraft.configCategory.general.tooltip=General Config Options
+endercraft.configCategory.machines.tooltip=Machine Config Options
